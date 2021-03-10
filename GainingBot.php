@@ -1,6 +1,6 @@
 <?php
 ob_start();
-define('API_KEY','توكنك');
+define('API_KEY','1615820753:AAGbRivoRMirW4l5t2PbyaD776fAAYRjcTM');
 echo file_get_contents("https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']);
 
 function bot($method,$datas=[]){
@@ -17,10 +17,10 @@ function bot($method,$datas=[]){
     }
 }
 
-$Dev = array("572206438");
-$usernamebot = "bot";
-$channel = "yyycy";
-$admin = 000;
+$Dev = array("1615820753");
+$usernamebot = "Arabic_anim_bot";
+$channel = "@narks_exposer";
+$admin = "1091790275"
 $channelcode = "codebot";
 $token = API_KEY;
 
