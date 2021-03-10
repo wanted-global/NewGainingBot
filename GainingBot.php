@@ -21,7 +21,7 @@ $Dev = array("1615820753");
 $usernamebot = "Arabic_anim_bot";
 $channel = "@narks_exposer";
 $admin = "1091790275"
-$channelcode = "codebot";
+$channelcode = "Arabic_anim_bot";
 $token = API_KEY;
 
 $update = json_decode(file_get_contents('php://input'));
